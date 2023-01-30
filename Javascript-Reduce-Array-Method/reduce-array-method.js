@@ -58,3 +58,15 @@ const LongestText = athletes.reduce((pVal, cVal) => {
 document.getElementById(
   "reduce2"
 ).innerHTML = `The sport ${sport} has the longest text description with ${LongestText} characters`;
+
+// EXAMPLE 3
+
+const fullNameInitials = athletes.reduce((pVal, cVal, index, array) => {
+  const fullName = cVal.name.split(" ");
+  let initials = `${fullName[0][0]}${fullName[1][0]}`;
+  return pVal + " - " + initials;
+}, "");
+
+document.getElementById(
+  "reduce3"
+).innerHTML = `The Full Name initials of each athlete are  ${fullNameInitials}`;

@@ -47,7 +47,7 @@ const athletes = [
 
 let sport = "";
 
-const sportNameWithLongestDescription = athletes.reduce((pVal, cVal) => {
+const LongestText = athletes.reduce((pVal, cVal) => {
   if (cVal.sport.length > pVal) {
     sport = cVal.sport;
     return cVal.sport.length;
@@ -57,4 +57,4 @@ const sportNameWithLongestDescription = athletes.reduce((pVal, cVal) => {
 
 document.getElementById(
   "reduce2"
-).innerHTML = `The sport ${sport} has the longest text description with ${sportNameWithLongestDescription} characters`;
+).innerHTML = `The sport ${sport} has the longest text description with ${LongestText} characters`;

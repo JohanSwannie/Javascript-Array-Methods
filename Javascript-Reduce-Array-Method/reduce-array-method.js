@@ -2,18 +2,15 @@
 
 const numberArray = [12, 17, 25, 10, 39, 20, 33, 29, 7, 16];
 
-const startingPointNumber = 0;
+const iVal = 0;
 
-const totalSum = numberArray.reduce(
-  (previousValue, currentValue) => previousValue + currentValue,
-  startingPointNumber
-);
+const totalSum = numberArray.reduce((pVal, cVal) => pVal + cVal, iVal);
 
 document.getElementById(
   "reduce1"
 ).innerText = `The sum of the numberArray = ${totalSum}`;
 
-// EXAMPLE 1
+// EXAMPLE 2
 
 const athletes = [
   {
@@ -50,16 +47,13 @@ const athletes = [
 
 let sport = "";
 
-const sportNameWithLongestDescription = athletes.reduce(
-  (previousValue, currentValue) => {
-    if (currentValue.sport.length > previousValue) {
-      sport = currentValue.sport;
-      return currentValue.sport.length;
-    }
-    return previousValue;
-  },
-  0
-);
+const sportNameWithLongestDescription = athletes.reduce((pVal, cVal) => {
+  if (cVal.sport.length > pVal) {
+    sport = cVal.sport;
+    return cVal.sport.length;
+  }
+  return pVal;
+}, 0);
 
 document.getElementById(
   "reduce2"

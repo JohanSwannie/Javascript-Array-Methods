@@ -61,10 +61,15 @@ document.getElementById(
 
 // EXAMPLE 3
 
+let end = "";
+
 const fullNameInitials = athletes.reduce((pVal, cVal, index, array) => {
   const fullName = cVal.name.split(" ");
   let initials = `${fullName[0][0]}${fullName[1][0]}`;
-  return pVal + " - " + initials;
+  if (index === array.length - 1) {
+    end = " -- End of array";
+  }
+  return pVal + " - " + initials + end;
 }, "");
 
 document.getElementById(

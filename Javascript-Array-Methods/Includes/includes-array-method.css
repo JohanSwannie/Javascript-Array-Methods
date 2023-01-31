@@ -18,7 +18,7 @@
 
       .lottoContainer {
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         margin-inline: auto;
         margin-bottom: 3rem;
       }
@@ -31,4 +31,36 @@
         border: 25px solid #000;
         border-style: double;
         padding: 1rem;
+      }
+
+      .inputContainer {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        margin-inline: auto;
+        margin-bottom: 30px;
+      }
+
+      label {
+        font-size: 17px;
+        color: white;
+        font-weight: bold;
+        line-height: 3;
+      }
+
+      input[type="number"] {
+        width: 5vw;
+        height: 8vh;
+        background: crimson;
+        color: #FFF;
+        font-size: 30px;
+      }
+
+      button {
+        width: 5vw;
+        height: 8vh;
+        background: crimson;
+        color: #FFF;
+        font-size: 30px;
+        margin-left: 5vw;
+        margin-right: 5vw
       }

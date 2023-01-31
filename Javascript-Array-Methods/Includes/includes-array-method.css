@@ -35,7 +35,7 @@
 
       .inputContainer {
         display: grid;
-        grid-template-columns: repeat(7, 1fr);
+        grid-template-columns: repeat(8, 1fr);
         margin-inline: auto;
         margin-bottom: 30px;
       }
@@ -63,4 +63,12 @@
         font-size: 30px;
         margin-left: 5vw;
         margin-right: 5vw
+      }
+
+      button:hover {
+        background: blue;
+      }
+
+      #confirm {
+        font-size: 15px;
       }

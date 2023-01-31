@@ -35,34 +35,33 @@
 
       .inputContainer {
         display: grid;
-        grid-template-columns: repeat(8, 1fr);
+        grid-template-columns: repeat(5, 1fr) 2fr repeat(2, 1fr);
         margin-inline: auto;
         margin-bottom: 30px;
+        grid-gap: 0;
       }
 
       label {
         font-size: 17px;
         color: white;
         font-weight: bold;
-        line-height: 3;
+        line-height: 2;
       }
 
       input[type="number"] {
-        width: 5vw;
-        height: 8vh;
+        width: 4vw;
+        height: 5vh;
         background: crimson;
         color: #FFF;
         font-size: 30px;
       }
 
       button {
-        width: 5vw;
-        height: 8vh;
+        width: 3vw;
+        height: 5vh;
         background: crimson;
         color: #FFF;
-        font-size: 30px;
-        margin-left: 5vw;
-        margin-right: 5vw
+        font-size: 20px;
       }
 
       button:hover {
@@ -70,5 +69,6 @@
       }
 
       #confirm {
+        width: 5vw;
         font-size: 15px;
       }

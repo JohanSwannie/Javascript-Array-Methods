@@ -1,0 +1,34 @@
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: steelblue;
+      }
+
+      h1 {
+        text-align: center;
+        text-decoration: underline;
+        margin-bottom: 3rem;
+        color: white;
+        text-shadow: 2px #000 4px rgb(128, 90, 0);
+      }
+
+      .lottoContainer {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        margin-inline: auto;
+        margin-bottom: 3rem;
+      }
+
+      p {
+        color: steelblue;
+        background: lightgray;
+        font-size: 40px;
+        text-align: center;
+        border: 25px solid #000;
+        border-style: double;
+        padding: 1rem;
+      }

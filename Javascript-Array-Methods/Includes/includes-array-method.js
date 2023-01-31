@@ -2,6 +2,7 @@ const butt1 = document.getElementById("b1");
 const butt2 = document.getElementById("b2");
 const butt3 = document.getElementById("b3");
 const butt4 = document.getElementById("b4");
+const numbersToPlay = document.getElementById("numbersToPlay");
 
 var totalNumbers = 0;
 
@@ -31,9 +32,9 @@ function checkIT(event) {
   for (let i = 0; i < 10; i++) {
     document.getElementById(`p${i + 1}`).innerHTML = "";
   }
-  if (event.target.value > 5 && event.target.value < 11) {
+  if (numbersToPlay.value > 5 && numbersToPlay.value < 11) {
     if (totalNumbers > 0) {
-      numbersToUse = parseInt(event.target.value);
+      numbersToUse = parseInt(numbersToPlay.value);
       while (numbersGenerated < numbersToUse) {
         generatedNumber = Math.floor(Math.random() * totalNumbers) + 1;
         foundNumber = lottoArray.includes(generatedNumber);

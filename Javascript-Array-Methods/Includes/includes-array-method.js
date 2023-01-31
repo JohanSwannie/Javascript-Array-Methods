@@ -3,7 +3,7 @@ let generatedNumber = 0;
 let numbersGenerated = 0;
 let foundNumber = true;
 
-while (numbersGenerated < 12) {
+while (numbersGenerated < 6) {
   generatedNumber = Math.floor(Math.random() * 45) + 1;
   foundNumber = lottoArray.includes(generatedNumber);
   if (!foundNumber) {

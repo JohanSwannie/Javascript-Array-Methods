@@ -66,6 +66,9 @@
 
       button:hover {
         background: blue;
+        width: 3.25vw;
+        height: 5.25vh;
+        transition: 900ms ease all;
       }
 
       #confirm {

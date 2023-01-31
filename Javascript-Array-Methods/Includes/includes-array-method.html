@@ -10,13 +10,14 @@
   <body>
     <h1>Lotto Numbers Generator</h1>
     <div class="inputContainer">
-      <label for="input">Click For Total Numbers</label>
+      <label for="input">Total Numbers</label>
       <button id="b1">35</button>
       <button id="b2">40</button>
       <button id="b3">45</button>
       <button id="b4">47</button>
-      <label for="input">Enter Numbers To Play</label>
-      <input type="number" onblur="checkIT(event)" />
+      <label for="input">Numbers To Play</label>
+      <input id="numbersToPlay" type="number" />
+      <button id="confirm" onclick="checkIT()">Confirm</button>
     </div>
     <div class="lottoContainer">
       <p id="p1"></p>

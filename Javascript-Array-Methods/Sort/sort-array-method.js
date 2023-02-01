@@ -33,9 +33,9 @@ const sorter2 = document.getElementById("sort2");
 
 sorter2.innerHTML = `List : `;
 
-for (const key in sort2) {
-  if (sort2.hasOwnProperty.call(sort2, key)) {
-    const element = sort2[key];
+for (const value in sort2) {
+  if (sort2.hasOwnProperty(value)) {
+    const element = sort2[value];
     sorter2.innerHTML += `Name : ${element.name} is ${element.age} old | `;
   }
 }

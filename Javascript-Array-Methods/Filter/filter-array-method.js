@@ -35,13 +35,36 @@ const sportEquipment = [
 
 const filterResult2 = sportEquipment.filter((sport) => sport.price > 440);
 
+if (filterResult2 instanceof Array) {
+  alert("Yes it is an array!");
+} else {
+  alert("No, not an array at all");
+}
+
 const filter2 = document.getElementById("filter2");
 
 filter2.innerHTML = `The prices higher than 440 dollars are : `;
 
-for (const key in filterResult2) {
-  if (filterResult2.hasOwnProperty.call(filterResult2, key)) {
-    const element = filterResult2[key];
-    filter2.innerHTML += element.price.toFixed(2) + " | ";
+for (let item of filterResult2) {
+  for (const value in item) {
+    if (item.hasOwnProperty(value)) {
+      filter2.innerHTML += item[value] + " | ";
+    } else {
+      filter2.innerHTML += "What the heck";
+    }
+  }
+}
+
+const filter3 = document.getElementById("filter3");
+
+filter3.innerHTML = "New values are now : ";
+
+for (let item of filterResult2) {
+  filter3.innerHTML += `${item.name} - ${item.price} - ${item.qualityMark} &#8594; `;
+}
+
+for (let item of sportEquipment) {
+  for (let value in item) {
+    console.log(`${value}: ${item[value]}`);
   }
 }

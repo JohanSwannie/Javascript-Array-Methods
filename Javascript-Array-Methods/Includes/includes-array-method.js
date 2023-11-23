@@ -4,7 +4,7 @@ const butt3 = document.getElementById("b3");
 const butt4 = document.getElementById("b4");
 const numbersToPlay = document.getElementById("numbersToPlay");
 
-var totalNumbers = 0;
+let totalNumbers = 0;
 
 const determineButtonChosen = () => {
   butt1.addEventListener("click", () => {

@@ -5,15 +5,14 @@
 }
 
 body {
-  background: steelblue;
+  background: rgb(70, 92, 103);
 }
 
 h1 {
   text-align: center;
   text-decoration: underline;
-  margin-bottom: 3rem;
-  color: white;
-  text-shadow: 2px #000 4px rgb(128, 90, 0);
+  margin-bottom: 70px;
+  color: #fdf8f8;
 }
 
 .lottoContainer {

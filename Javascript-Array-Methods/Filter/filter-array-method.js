@@ -46,7 +46,7 @@ const filter2 = document.getElementById("filter2");
 filter2.innerHTML = `The prices higher than 440 dollars are : `;
 
 for (let item of filterResult2) {
-  for (const value in item) {
+  for (let value in item) {
     if (item.hasOwnProperty(value)) {
       filter2.innerHTML += value + ": " + item[value] + " | ";
     } else {

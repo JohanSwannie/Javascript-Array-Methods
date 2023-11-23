@@ -29,7 +29,8 @@ const array2 = [
 ];
 
 const mappingResult2 = array2.map(
-  (row) => `firstName = ${row.firstName} - lastName = ${row.lastName} </br>`
+  (row) =>
+    `firstName = ${row.firstName}  -  lastName = ${row.lastName}  -  age = ${row.age} </br>`
 );
 
 let babyBear = document.getElementById("map2");

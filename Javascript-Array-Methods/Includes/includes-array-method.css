@@ -20,7 +20,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   margin-inline: auto;
-  margin-bottom: 3rem;
+  grid-gap: 1rem;
 }
 
 p {

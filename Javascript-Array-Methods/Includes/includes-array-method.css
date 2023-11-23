@@ -1,77 +1,77 @@
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-      body {
-        background: steelblue;
-      }
+body {
+  background: steelblue;
+}
 
-      h1 {
-        text-align: center;
-        text-decoration: underline;
-        margin-bottom: 3rem;
-        color: white;
-        text-shadow: 2px #000 4px rgb(128, 90, 0);
-      }
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 3rem;
+  color: white;
+  text-shadow: 2px #000 4px rgb(128, 90, 0);
+}
 
-      .lottoContainer {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        margin-inline: auto;
-        margin-bottom: 3rem;
-      }
+.lottoContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-inline: auto;
+  margin-bottom: 3rem;
+}
 
-      p {
-        color: steelblue;
-        background: lightgray;
-        font-size: 40px;
-        text-align: center;
-        border: 25px solid #000;
-        border-style: double;
-        padding: 1rem;
-      }
+p {
+  color: steelblue;
+  background: lightgray;
+  font-size: 40px;
+  text-align: center;
+  border: 25px solid #000;
+  border-style: double;
+  padding: 1rem;
+}
 
-      .inputContainer {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr) 2fr repeat(2, 1fr);
-        margin-inline: auto;
-        margin-bottom: 30px;
-        grid-gap: 0;
-      }
+.inputContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr) 2fr repeat(2, 1fr);
+  margin-inline: auto;
+  margin-bottom: 70px;
+  grid-gap: 0;
+}
 
-      label {
-        font-size: 17px;
-        color: white;
-        font-weight: bold;
-        line-height: 2;
-      }
+label {
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+  line-height: 2;
+}
 
-      input[type="number"] {
-        width: 4vw;
-        height: 5vh;
-        background: crimson;
-        color: #FFF;
-        font-size: 30px;
-      }
+input[type="number"] {
+  width: 4vw;
+  height: 5vh;
+  background: crimson;
+  color: #fff;
+  font-size: 30px;
+}
 
-      button {
-        width: 3vw;
-        height: 5vh;
-        background: crimson;
-        color: #FFF;
-        font-size: 20px;
-      }
+button {
+  width: 3vw;
+  height: 5vh;
+  background: crimson;
+  color: #fff;
+  font-size: 20px;
+}
 
-      button:hover {
-        background: blue;
-        width: 3.25vw;
-        height: 5.25vh;
-        transition: 900ms ease all;
-      }
+button:hover {
+  background: blue;
+  width: 3.25vw;
+  height: 5.25vh;
+  transition: 900ms ease all;
+}
 
-      #confirm {
-        width: 5vw;
-        font-size: 15px;
-      }
+#confirm {
+  width: 5vw;
+  font-size: 15px;
+}

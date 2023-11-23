@@ -33,15 +33,9 @@ const sportEquipment = [
   },
 ];
 
-const filterResult2 = sportEquipment.filter((sport) => sport.price > 440);
-
-if (filterResult2 instanceof Array) {
-  alert("Yes it is an array!");
-} else {
-  alert("No, not an array at all");
-}
-
 const filter2 = document.getElementById("filter2");
+
+const filterResult2 = sportEquipment.filter((sport) => sport.price > 440);
 
 filter2.innerHTML = `The prices higher than 440 dollars are : `;
 
@@ -50,7 +44,8 @@ for (let item of filterResult2) {
     if (item.hasOwnProperty(value)) {
       filter2.innerHTML += value + ": " + item[value] + " | ";
     } else {
-      filter2.innerHTML += "What the heck - Your for loop has some bad syntax";
+      filter2.innerHTML +=
+        "What the heck - Your for loops have some bad syntax";
     }
   }
 }
@@ -63,6 +58,55 @@ for (let item of filterResult2) {
   filter3.innerHTML += `${item.name} - ${item.price} - ${item.qualityMark} &#8594; `;
 }
 
-for (let value in item) {
-  if (item.hasOwnProperty(value)) console.log(`${value}: ${item[value]}`);
+const filter4 = document.getElementById("filter4");
+
+let anotherArray = [12, "Mary", true, 109.24, "John", false, "James"];
+
+const filteredArray = anotherArray.filter((filty) => typeof filty == "string");
+
+let filteredText = "";
+
+if (filteredArray.length > 1) {
+  filteredText = "Type of string values are : ";
+} else {
+  filteredText = "Type of string value is : ";
+}
+
+filter4.innerHTML = `${filteredText}  ${filteredArray}`;
+
+const filter5 = document.getElementById("filter5");
+
+let people = [
+  {
+    name: "James",
+    age: 27,
+  },
+  {
+    name: "Mary",
+    age: 25,
+  },
+];
+
+let extraPeople = [
+  { name: "Lucas", age: 33 },
+  { name: "Thomas", age: 36 },
+  { name: "Martin", age: 22 },
+  { name: "Julie", age: 24 },
+  { name: "Roxanne", age: 28 },
+  { name: "Natasha", age: 20 },
+  { name: "Sherene", age: 30 },
+  { name: "Karen", age: 19 },
+  { name: "Julian", age: 27 },
+];
+
+for (let value of extraPeople) {
+  people.push(value);
+}
+
+const filteredPeople = people.filter((person) => person.age > 24);
+
+filter5.innerHTML = "People older than 25 are : ";
+
+for (let item of filteredPeople) {
+  filter5.innerHTML += `${item.name} ${item.age} | `;
 }

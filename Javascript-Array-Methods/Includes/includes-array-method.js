@@ -23,7 +23,7 @@ const determineButtonChosen = () => {
 
 determineButtonChosen();
 
-function checkIT(event) {
+function checkIT() {
   let numbersToUse = 0;
   let generatedNumber = 0;
   let numbersGenerated = 0;

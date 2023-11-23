@@ -29,6 +29,10 @@ const persons = [
 
 const sort2 = persons.sort((x, y) => x.age - y.age);
 
+if (sort2 instanceof Array) {
+  alert("Yes it is an array");
+}
+
 const sorter2 = document.getElementById("sort2");
 
 sorter2.innerHTML = `List : `;

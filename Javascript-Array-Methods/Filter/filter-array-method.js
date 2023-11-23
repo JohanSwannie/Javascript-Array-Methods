@@ -48,7 +48,7 @@ filter2.innerHTML = `The prices higher than 440 dollars are : `;
 for (let item of filterResult2) {
   for (const value in item) {
     if (item.hasOwnProperty(value)) {
-      filter2.innerHTML += item[value] + " | ";
+      filter2.innerHTML += value + ": " + item[value] + " | ";
     } else {
       filter2.innerHTML += "What the heck";
     }
@@ -63,8 +63,6 @@ for (let item of filterResult2) {
   filter3.innerHTML += `${item.name} - ${item.price} - ${item.qualityMark} &#8594; `;
 }
 
-for (let item of sportEquipment) {
-  for (let value in item) {
-    console.log(`${value}: ${item[value]}`);
-  }
+for (let value in item) {
+  if (item.hasOwnProperty(value)) console.log(`${value}: ${item[value]}`);
 }

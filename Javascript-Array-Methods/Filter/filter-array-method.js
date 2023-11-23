@@ -50,7 +50,7 @@ for (let item of filterResult2) {
     if (item.hasOwnProperty(value)) {
       filter2.innerHTML += value + ": " + item[value] + " | ";
     } else {
-      filter2.innerHTML += "What the heck";
+      filter2.innerHTML += "What the heck - Your for loop has some bad syntax";
     }
   }
 }

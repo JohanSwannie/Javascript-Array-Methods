@@ -8,7 +8,7 @@ const totalSum = numberArray.reduce((pVal, cVal) => pVal + cVal, iVal);
 
 document.getElementById(
   "reduce1"
-).innerText = `The sum of the numberArray = ${totalSum}`;
+).innerText = `The sum of the number Array = ${totalSum}`;
 
 // EXAMPLE 2
 

@@ -32,4 +32,8 @@ const mappingResult2 = array2.map(
   (row) => `firstName = ${row.firstName} - lastName = ${row.lastName} </br>`
 );
 
-document.getElementById("map2").innerHTML = `${mappingResult2}`;
+let babyBear = document.getElementById("map2");
+
+for (let value of mappingResult2) {
+  babyBear.innerHTML += value;
+}

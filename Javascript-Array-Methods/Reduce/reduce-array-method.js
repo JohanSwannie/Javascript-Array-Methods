@@ -75,3 +75,36 @@ const fullNameInitials = athletes.reduce((pVal, cVal, index, array) => {
 document.getElementById(
   "reduce3"
 ).innerHTML = `The Full Name initials of each athlete are  ${fullNameInitials}`;
+
+let golfClub = [
+  {
+    name: "Garry Player",
+    round: 69,
+  },
+  {
+    name: "Tiger Woods",
+    round: 66,
+  },
+  {
+    name: "Dennis Dateling",
+    round: 71,
+  },
+  {
+    name: "John Bland",
+    round: 73,
+  },
+];
+
+const reduce4 = document.getElementById("reduce4");
+
+let player = "";
+
+const bestScore = golfClub.reduce((preScore, lastScore) => {
+  if (lastScore.round < preScore) {
+    player = lastScore.name;
+    return lastScore.round;
+  }
+  return preScore;
+}, 120);
+
+reduce4.innerHTML = `Player with the lowest score of ${bestScore} is ${player}`;

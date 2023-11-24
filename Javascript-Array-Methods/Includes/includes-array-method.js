@@ -54,3 +54,30 @@ function checkIT() {
     alert("You can Not generated that amount of numbers");
   }
 }
+
+let p11 = document.getElementById("p11");
+
+let extraArray1 = ["Mary", "Julie", "Richard", "James", "Roxanne"];
+
+let extraArray2 = [
+  "Mary",
+  "Julian",
+  "Righard",
+  "John",
+  "James",
+  "Rochelle",
+  "Natasha",
+  "Barnie",
+  "Sherene",
+  "Christelle",
+  "Louise",
+  "Julie",
+];
+
+for (let name of extraArray2) {
+  if (!extraArray1.includes(name)) {
+    extraArray1.push(name);
+  }
+}
+
+p11.innerHTML = `The new names in the 1st array are : ${extraArray1}`;

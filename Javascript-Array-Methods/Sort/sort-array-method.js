@@ -57,3 +57,9 @@ for (let item of sort2) {
     }
   }
 }
+
+const sorter4 = document.getElementById("sort4");
+
+for (let value of sort2) {
+  sorter4.innerHTML += `${value.name} - ${value.age} | `;
+}

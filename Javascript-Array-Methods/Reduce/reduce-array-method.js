@@ -74,7 +74,7 @@ const fullNameInitials = athletes.reduce((pVal, cVal, index, array) => {
 
 document.getElementById(
   "reduce3"
-).innerHTML = `The Full Name initials of each athlete are  ${fullNameInitials}`;
+).innerHTML = `The Full Name and initials of each athlete are  ${fullNameInitials}`;
 
 let golfClub = [
   {

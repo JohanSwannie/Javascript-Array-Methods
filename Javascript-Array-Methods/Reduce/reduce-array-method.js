@@ -21,12 +21,12 @@ const athletes = [
   {
     name: "Dennis Dateling",
     age: 27,
-    sport: "Table Tennis",
+    sport: "Cricket",
   },
   {
     name: "Luke Hanekom",
     age: 28,
-    sport: "Cricket",
+    sport: "Table Tennis",
   },
   {
     name: "Lionel Messi",

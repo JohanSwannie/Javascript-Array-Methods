@@ -80,6 +80,12 @@ for (let name of extraArray2) {
   }
 }
 
+// for (let i = 0; i < extraArray2.length; i++) {
+//   if (!extraArray1.includes(extraArray2[i])) {
+//     extraArray1.push(extraArray2[i]);
+//   }
+// }
+
 extraArray1.sort((a, b) => (a > b ? 1 : -1));
 
 p11.innerHTML = `The new names in the 1st array are : `;

@@ -8,16 +8,16 @@ let totalNumbers = 0;
 
 const determineButtonChosen = () => {
   butt1.addEventListener("click", () => {
-    totalNumbers = 35;
+    totalNumbers = parseInt(butt1.innerHTML);
   });
   butt2.addEventListener("click", () => {
-    totalNumbers = 40;
+    totalNumbers = parseInt(butt2.innerHTML);
   });
   butt3.addEventListener("click", () => {
-    totalNumbers = 45;
+    totalNumbers = parseInt(butt3.innerHTML);
   });
   butt4.addEventListener("click", () => {
-    totalNumbers = 47;
+    totalNumbers = parseInt(butt4.innerHTML);
   });
 };
 

@@ -103,10 +103,10 @@ for (let value of extraPeople) {
   people.push(value);
 }
 
-const filteredPeople = people.filter((person) => person.age > 24);
+const filteredPeople = people.filter((person) => person.age > 25);
 
 filter5.innerHTML = "People older than 25 are : ";
 
 for (let item of filteredPeople) {
-  filter5.innerHTML += `${item.name} ${item.age} | `;
+  filter5.innerHTML += `${item.name} is ${item.age} | `;
 }

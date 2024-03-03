@@ -7,7 +7,7 @@ const result1 = list1.some((item) => item / 3 === 6);
 some1.innerHTML = `list1 = ${result1}`;
 
 const some2 = document.getElementById("some2");
-
+S;
 const isBiggerThan10 = (element) => element > 10;
 
 some2.innerHTML = `Are any element in the array bigger than 10 - ${[

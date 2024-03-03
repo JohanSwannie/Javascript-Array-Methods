@@ -8,9 +8,7 @@ some1.innerHTML = `list1 = ${result1}`;
 
 const some2 = document.getElementById("some2");
 
-const isBiggerThan10 = (element) => {
-  return element > 10;
-};
+const isBiggerThan10 = (element) => element > 10;
 
 some2.innerHTML = `Are any element in the array bigger than 10 - ${[
   2, 5, 8, 11, 4,

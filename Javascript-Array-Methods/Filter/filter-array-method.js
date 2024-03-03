@@ -62,14 +62,14 @@ const filter4 = document.getElementById("filter4");
 
 let anotherArray = [12, "Mary", true, 109.24, "John", false, "James"];
 
-const filteredArray = anotherArray.filter((filty) => typeof filty == "string");
+const filteredArray = anotherArray.filter((filty) => typeof filty == "number");
 
 let filteredText = "";
 
 if (filteredArray.length > 1) {
-  filteredText = "Type of string values are : ";
+  filteredText = "Type of number values are : ";
 } else {
-  filteredText = "Type of string value is : ";
+  filteredText = "Type of number value is : ";
 }
 
 filter4.innerHTML = `${filteredText}  ${filteredArray}`;

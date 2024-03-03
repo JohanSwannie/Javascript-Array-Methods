@@ -27,7 +27,7 @@ const persons = [
   },
 ];
 
-const sort2 = persons.sort((x, y) => x.age - y.age);
+const sort2 = persons.sort((x, y) => (x.age > y.age ? 1 : -1));
 
 // if (sort2 instanceof Array) {
 //   alert("Yes it is an array");

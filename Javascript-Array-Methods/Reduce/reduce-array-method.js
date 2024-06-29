@@ -105,6 +105,6 @@ const bestScore = golfClub.reduce((preScore, lastScore) => {
     return lastScore.round;
   }
   return preScore;
-}, 120);
+}, 121);
 
 reduce4.innerHTML = `Player with the lowest score of ${bestScore} is ${player}`;

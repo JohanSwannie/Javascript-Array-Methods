@@ -88,7 +88,7 @@ let people = [
 ];
 
 let extraPeople = [
-  { name: "Lucas", age: 33 },
+  { name: "Luke", age: 33 },
   { name: "Thomas", age: 36 },
   { name: "Martin", age: 22 },
   { name: "Julie", age: 24 },

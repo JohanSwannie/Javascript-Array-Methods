@@ -90,12 +90,12 @@ extraArray1.sort((a, b) => (a > b ? 1 : -1));
 
 p11.innerHTML = `The new names in the 1st array are : `;
 
-let tagger = " - ";
+let taggerBoy = " - ";
 
 for (let value of extraArray1) {
   if (value === extraArray1[extraArray1.length - 1]) {
     p11.innerHTML += ` ${value}`;
   } else {
-    p11.innerHTML += ` ${value} ${tagger}`;
+    p11.innerHTML += ` ${value} ${taggerBoy}`;
   }
 }

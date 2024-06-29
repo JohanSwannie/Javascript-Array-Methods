@@ -8,7 +8,7 @@ every1.innerHTML = `list1 = ${result1}`;
 
 const every2 = document.getElementById("every2");
 
-const isBiggerThan10 = (element) => element > 10;
+const isBiggerThan10 = (element) => element > 9;
 
 every2.innerHTML = `Is every element in the array bigger than 10 - ${[
   12, 15, 18, 11, 14,

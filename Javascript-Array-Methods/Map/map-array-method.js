@@ -33,8 +33,8 @@ const mappingResult2 = array2.map(
     `firstName = ${row.firstName}  -  lastName = ${row.lastName}  -  age = ${row.age} </br>`
 );
 
-let babyBear = document.getElementById("map2");
+let babyBoy = document.getElementById("map2");
 
 for (let value of mappingResult2) {
-  babyBear.innerHTML += value;
+  babyBoy.innerHTML += value;
 }

@@ -1,26 +1,26 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body {
-    background: steelblue;
-  }
+body {
+  background: rgb(76, 135, 184);
+}
 
-  h1 {
-    text-align: center;
-    text-decoration: underline;
-    margin-bottom: 2rem;
-  }
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
 
-  p {
-    text-align: center;
-    border: 1px solid red;
-    width: 80rem;
-    padding: 20px;
-    margin-inline: auto;
-    margin-bottom: 1rem;
-    color: #fff;
-    background-color: navy;
-  }
+p {
+  text-align: center;
+  border: 1px solid red;
+  width: 80rem;
+  padding: 20px;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+  color: #fff;
+  background-color: navy;
+}

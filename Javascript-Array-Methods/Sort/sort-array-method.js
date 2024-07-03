@@ -11,7 +11,7 @@ document.getElementById("sort1").innerHTML = `The new sort order = ${sort1}`;
 const persons = [
   {
     name: "Paul",
-    age: 39,
+    age: 37,
   },
   {
     name: "Mary",

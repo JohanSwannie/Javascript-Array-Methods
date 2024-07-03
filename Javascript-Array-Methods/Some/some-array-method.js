@@ -1,6 +1,6 @@
 const some1 = document.getElementById("some1");
 
-const list1 = [12, "sport", true, 18, 19.35, false];
+const list1 = [12, "sport", true, 16, 19.35, false];
 
 const result1 = list1.some((item) => item / 3 === 6);
 

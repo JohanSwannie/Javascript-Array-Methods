@@ -83,7 +83,7 @@ let golfClub = [
   },
   {
     name: "Tiger Woods",
-    round: 66,
+    round: 64,
   },
   {
     name: "Dennis Dateling",

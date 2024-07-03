@@ -22,7 +22,7 @@ const array2 = [
     age: 37,
   },
   {
-    firstName: "Mary",
+    firstName: "Martin",
     lastName: "Brown",
     age: 41,
   },

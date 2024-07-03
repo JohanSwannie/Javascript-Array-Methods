@@ -60,14 +60,14 @@ let p11 = document.getElementById("p11");
 let extraArray1 = ["Mary", "Julie", "Richard", "James", "Roxanne"];
 
 let extraArray2 = [
-  "Mary",
+  "Monique",
   "Julian",
   "Righard",
   "John",
   "James",
   "Rochelle",
   "Natasha",
-  "Barnie",
+  "Bobby",
   "Sherene",
   "Christelle",
   "Louise",

@@ -88,10 +88,10 @@ let people = [
 ];
 
 let extraPeople = [
-  { name: "Luke", age: 33 },
+  { name: "Lillian", age: 33 },
   { name: "Thomas", age: 36 },
   { name: "Martin", age: 22 },
-  { name: "Julie", age: 24 },
+  { name: "Julie", age: 59 },
   { name: "Roxanne", age: 28 },
   { name: "Natasha", age: 20 },
   { name: "Sherene", age: 30 },

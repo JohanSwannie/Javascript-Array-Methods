@@ -1,6 +1,6 @@
 // EXAMPLE 1
 
-const array1 = [19, 23, 7, 38, 22, 14, 5, 45, 71, 34];
+const array1 = [19, 34, 23, 7, 38, 22, 14, 5, 45, 71, 34];
 
 const filterResult1 = array1.filter((data) => data > 30);
 

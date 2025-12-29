@@ -1,6 +1,6 @@
 // EXAMPLE 1
 
-const array1 = [20, 50, 10, 100, 40, 60, 30];
+const array1 = [20, 50, 10, 100, 40, 60, 30, 10, 70];
 
 const mappingResult1 = array1.map((result1) => result1 * 3);
 

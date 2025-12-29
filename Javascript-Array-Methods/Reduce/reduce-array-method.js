@@ -1,6 +1,6 @@
 // EXAMPLE 1
 
-const numberArray = [12, 17, 25, 10, 39, 20, 33, 29, 7, 16];
+const numberArray = [12, 17, 25, 10, 26, 39, 20, 33, 29, 7, 16];
 
 const iVal = 0;
 
